@@ -1,0 +1,33 @@
+############################################################################
+
+1. Miniconda 
+
+Copy paste the below script
+
+wget http://repo.continuum.io/miniconda/Miniconda3-3.7.0-Linux-x86_64.sh -O ~/miniconda.sh
+bash ~/miniconda.sh -b -p ~/miniconda
+export PATH="~/miniconda/bin:$PATH"
+source ~/.bashrc
+
+############################################################################
+
+2. Tensorflow 
+
+Copy paste the below script
+
+conda create --name deepl_workshop python=3.5
+source activate deepl_workshop
+conda install jupyter
+conda install scipy
+pip install tensorflow 
+pip install matplotlib 
+pip install pillow
+
+
+2.1 Test tensorflow
+
+python -c "import tensorflow as tf;print(tf.__version__)"
+
+
+############################################################################
+

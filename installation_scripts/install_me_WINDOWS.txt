@@ -1,0 +1,48 @@
+
+############################################################################
+
+1. Miniconda
+
+1.1 Download Miniconda
+    copy paste the link below on your browser
+    if 64bit system:
+        https://repo.continuum.io/miniconda/Miniconda3-latest-Windows-x86_64.exe
+    if 32bit system:
+       https://repo.continuum.io/miniconda/Miniconda3-latest-Windows-x86.exe
+    
+
+1.2 Double-click the .exe file.
+
+1.3 Follow the instructions. Click on - Add Anaconda to your environment path.
+If you are unsure about any setting, accept the defaults. You can change them later.
+
+1.4 Test the installation - Open Anaconda prompt and type
+    conda list
+
+
+############################################################################
+
+2. Tensorflow
+
+2.1 Open Anaconda prompt
+
+2.2 Copy paste the below script
+
+    ***************************************************
+    conda create --name deepl_workshop python=3.5
+    activate deepl_workshop
+    conda install jupyter
+    conda install scipy
+    pip install matplotlib 
+    pip install pillow
+    pip install tensorflow 
+    ***************************************************
+
+2.3 Test tensorflow
+    
+    python -c "import tensorflow as tf;print(tf.__version__)"
+
+
+############################################################################
+
+
