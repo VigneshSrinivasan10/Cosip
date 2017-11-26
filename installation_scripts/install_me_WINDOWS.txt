@@ -33,6 +33,7 @@ If you are unsure about any setting, accept the defaults. You can change them la
     activate deepl_workshop
     conda install jupyter
     conda install scipy
+    pip install scikit-image
     pip install matplotlib 
     pip install pillow
     pip install tensorflow 

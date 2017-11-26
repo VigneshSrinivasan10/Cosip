@@ -18,6 +18,7 @@ conda create --name deepl_workshop python=3.5
 source activate deepl_workshop
 conda install jupyter
 conda install scipy
+pip install scikit-image
 pip install tensorflow 
 pip install matplotlib 
 pip install pillow
