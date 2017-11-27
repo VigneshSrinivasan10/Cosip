@@ -26,16 +26,16 @@ If you are unsure about any setting, accept the defaults. You can change them la
 
 2.1 Open Anaconda prompt
 
-2.2 Copy paste the below script
+2.2 Copy paste the below script line by line
 
     ***************************************************
     conda create --name deepl_workshop python=3.5
     activate deepl_workshop
     conda install jupyter
     conda install scipy
-    pip install scikit-image
-    pip install matplotlib 
-    pip install pillow
+    conda install scikit-image
+    conda install matplotlib 
+    conda install pillow
     pip install tensorflow 
     ***************************************************
 

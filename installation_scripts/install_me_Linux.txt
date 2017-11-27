@@ -13,16 +13,16 @@ source ~/.bashrc
 
 2. Tensorflow 
 
-Copy paste the below script
+Copy paste the below script line by line
 
 conda create --name deepl_workshop python=3.5
 source activate deepl_workshop
 conda install jupyter
 conda install scipy
-pip install scikit-image
+conda install scikit-image
+conda install matplotlib 
+conda install pillow
 pip install tensorflow 
-pip install matplotlib 
-pip install pillow
 
 
 2.1 Test tensorflow
