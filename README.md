@@ -1,4 +1,5 @@
-# Cosip 
+# CoSIP Intense Course on Deep Learning - ICDL'17
+
 ## Introduction To Tensorflow I & II
 
 ### Installation Instructions
