@@ -9,7 +9,7 @@
     2. Model weights - VGG16 and Mnist
     3. Images for style transfer experiments
     
-Please download this repository and have the required installations before you a arrive. The estimated time for the download and installation is about 30mins. 
+Please download this repository and have the required installations before you a arrive. **The estimated time for the download and installation is about 30mins.** 
 
 
 ### Abstract 
