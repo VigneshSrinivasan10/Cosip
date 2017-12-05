@@ -230,9 +230,9 @@ class vgg16:
     def load_weights(self, weight_file, sess):
         weights = np.load(weight_file)
         keys = sorted(weights.keys())
+        print('Reloading VGG16 weights ...')
         for i, k in enumerate(keys):
             if 'fc' not in k:
-                print('Reloading VGG16 weights ...')
                 sess.run(self.parameters[i].assign(weights[k]))
 
 
